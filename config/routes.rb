@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  post 'authenticate', to: 'authentication#authenticate'
-  get 'item', to: 'item#list'
+  post 'register', to: 'user#register'
+  post 'login', to: 'user#login'
+  get 'home', to: 'home#home'
 end
