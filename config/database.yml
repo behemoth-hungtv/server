@@ -1,0 +1,9 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: vue_2_only
+  username: root
+  password:
+  host: localhost
+  pool: 3306
+  timeout: 5000
